@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<title> ABC Jogos </title>
+		<link rel="stylesheet" type="text/css" href="estilo.css" />
+	</head>
+	
+	<body>
+		<div id="cabecalho">
+		<div> ABC Jogos </div> <br />
+		<p> MELHOR SITE DE JOGOS DA ATUALIDADE </p>
+		</div>
+		
+		<div id="menu">
+			
+			<div class="borda">
+				<div class="tituloMenu"> Login </div>
+				
+				<form action="gravar.php" method="POST">
+					<p> <label for="email"> Email </label>
+					<input type="text" name="email" /> <br /> </p>
+					<p> <label for="senha"> Senha </label>
+					<input type="password" name="senha" /> <br /> </p>
+					<input type="hidden" name="usuario01" value="usuario01">
+					
+					<input class="botao" type="submit" name="btnEntrar" value="Entrar"/>
+				</form>
+			</div>
+		
+			<div class="borda">
+				<div class="tituloMenu"> Filtros </div> <br />
+				<input type="radio" name="buscaAlfab" value="crescente"> De A até Z <br />
+				<input type="radio" name="buscaAlfab" value="decrescente"> De Z até A <br /> <br />
+				<input type="radio" name="buscaPreco" value="menorMaior"> R$00,00 - R$100,00 <br />
+				<input type="radio" name="buscaPreco" value="maiorMenor"> R$100,00 - R$00,00
+			</div>
+			
+			<div class="borda">
+				<div class="tituloMenu"> Categorias </div>
+				<select>
+					<option value="1"> Ação </option>
+					<option value="2"> Esportes </option>
+					<option value="3"> Aventura </option>
+					<option value="4"> RPG </option>
+					<option value="5"> Corrida </option>
+					<option value="6"> Luta </option>
+					<option value="7"> Estratégia </option>
+					<option value="8"> Tiro </option>
+				</select>
+			</div>
+		</div>
+		
+		<div id="meio">
+			<div class="bordaJogo">
+				<img src="imagens/img3.png" alt="Resident Evil">
+				<div class="jogos"> <h1> Resident Evil 3 </h1> <br />
+				<p class="descricao"> Ação - Tiro - +16 </p> <br />
+				<p> Jill Valentine é uma das últimas pessoas em Raccoon City <br />
+				a testemunhar as atrocidades que a Umbrella cometeu. <br />
+				Para pará-la... </p> </div>
+				<div class="preco"> R$78,00 </div>
+			</div>
+			
+			<div class="bordaJogo">
+				<img src="imagens/img4.png" alt="Minecraft">
+				<div class="jogos"> <h1> Minecraft </h1> <br />
+				<p class="descricao"> Aventura - Livre </p> <br />
+				<p> Explore o seu próprio mundo, sobreviva à noite e crie tudo <br />
+				o que puder imaginar! </p> </div>
+				<div class="preco"> R$60,00 </div>
+			</div>
+			
+			<div class="bordaJogo">
+				<img src="imagens/img5.webp" alt="Naruto">
+				<div class="jogos"> <h1> Naruto Storm 4 </h1> <br />
+				<p class="descricao"> Aventura - Luta - +12 </p> <br />
+				<p> O mais recente capítulo da aclamada série STORM leva <br />
+				você a uma viagem de tirar o fôlego e cheia de cores!  </p> </div>
+				<div class="preco"> R$100,00 </div>
+			</div>
+		</div>
+		
+		<div id="rodape">
+			<table>
+				<tr>
+					<th class="firstCol"> Redes Socias </th>
+					<th> Links Úteis </th>
+					<th class="lastCol"> Outros </th>
+				</tr>
+				<tr>
+					<td class="firstCol"> <a href="https://www.instagram.com/vitor_putzs/"> Instagram </a> </td>
+					<td> <a href="mailto:vittoraug@gmail.com?subject=Help"> Suporte </a> </td>
+					<td class="lastCol"> <a href="https://www.maioresemelhores.com/jogos-online-mais-jogados-no-mundo/"> Top Jogos </a> </td>
+				</tr>
+				<tr>
+					<td class="firstCol"> <a href="https://www.facebook.com/vitor.augusto.902266/"> Facebook </a> </td>
+					<td> </td>
+					<td class="lastCol"> </td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

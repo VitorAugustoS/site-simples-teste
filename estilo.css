@@ -1,0 +1,167 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background: #6CB041; /* Verde Claro */
+}
+
+#cabecalho{
+	background-image: url(imagens/img2.jpg);
+	margin: 1em 2em auto;
+	border-radius: 10px;
+	text-indent: 10px;
+	height: 110px;
+}
+
+#menu{
+	background: #ffc220; /* Laranja Claro */
+	margin: 1.2em 0.5em auto 10em;
+	width: 19%;
+	height: 315px;
+	float: left;
+	border-radius: 10px;
+	font-size: 15px;
+	color: white;
+	border: 2px solid white;
+}
+
+#menu p{
+	line-height: 25px;
+}
+
+#meio{
+	margin: 0.5em 0em auto;
+	width: 50%;
+	height: 600px;
+	float: left;
+	border-radius: 10px;
+}
+
+#rodape{
+	background: green;
+	clear: both;
+	height: 140px;
+	border-top: 1px solid black;
+}
+
+#cabecalho div{
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	color: orange;
+}
+
+#cabecalho p{
+	text-indent: 10px;
+	color: orange;
+	text-align: center;
+	font-weight: bold;
+}
+
+.nomeJogo{
+	font-size: 30px;
+	text-indent: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.tituloMenu{
+	font-size: 19px;
+	height: 25px;
+	vertical-align: center-left;
+}
+
+#menu select{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.borda{
+	border: 2px solid;
+	text-indent: 10px;
+	margin: 0.6em 0.2em auto;
+	border-radius: 10px;
+}
+
+img{
+	width: 100px;
+	height: 120px;
+	margin: 1em 0em;
+	display: inline-block;
+}
+
+.bordaJogo{
+	border: 2px solid black;
+	text-indent: 10px;
+	margin: 0.6em 0.2em auto;
+	border-radius: 10px;
+	background: #836FFF;
+	position: relative;
+}
+
+.jogos{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#meio p{
+	text-indent: 0px;
+	margin: 3px 0.9em;
+}
+
+.preco{
+	font-size: 35px;
+	display: inline-block;
+	vertical-align: 1.6em;
+	font-weight: bold;
+}
+
+.botao{
+	margin: auto;
+	display: flex;
+	text-align: center;
+}
+
+.descricao{
+	word-spacing: 5px;
+}
+
+table{
+	text-align: center;
+	table-layout: fixed;
+	margin: auto;
+	border-collapse: collapse;
+	height: 100%;
+}
+
+th, td{
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-color: black;
+	border-style: solid;
+	padding: 10px;
+	width: 130px;
+}
+th{
+	font-size: 18px;
+}
+
+.firstCol{
+	border: none;
+	padding: 10px;
+	width: 130px;
+}
+
+.lastCol{
+	border: none;
+	padding: 10px;
+	width: 130px;
+}
+
+a{
+	color: black;
+}
